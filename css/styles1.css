@@ -852,7 +852,6 @@ header {
   border-radius: 24px;
   color: #AFB1B8;
   cursor: pointer;
-  z-index: 3;
   position: relative;
 }
 
@@ -864,7 +863,7 @@ header {
 }
 
 .socialmedia {
-  z-index: 7;
+  /* z-index: 7; */
 }
 
 .socialmedia:hover {
