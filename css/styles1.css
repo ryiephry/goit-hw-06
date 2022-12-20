@@ -1290,8 +1290,7 @@ header {
 
 .input-design:hover,
 .input-design:focus {
-  border: var(--accent-color);
-  outline-color: #2196F3;
+  border: 1px solid var(--accent-color);
 }
 
 .subscibe-svg {
