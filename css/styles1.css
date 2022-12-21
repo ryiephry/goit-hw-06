@@ -1391,6 +1391,10 @@ header {
 
 }
 
+.input-form-main.svg-forms:hover {
+  color: var(--accent-color);
+}
+
 .div-forms {
   margin-bottom: 10px;
   position: relative;
@@ -1405,11 +1409,7 @@ header {
   position: absolute;
   left: 12px;
   top: 12px;
-  color: var(--primary-text-color);
   transition: color 250ms var(--main-q-b);
-  /*
-  color: currentColor;
-  */
 }
 
 .svg-forms:hover,
@@ -1443,15 +1443,21 @@ header {
 .input-form-div {
   display: block;
   position: relative;
+  color: var(--primary-text-color);
+  transition: color 250ms var(--main-q-b);
 }
 
 .input-testing {
   padding-left: 10px;
-  padding-right: 300px;
-
+  padding-right: 440px;
+  width: 440px;
+  height: 40px;
+  position: absolute;
+  top: 0;
 }
 
-.input-testing:hover {
+.input-testing:hover,
+.input-testing:focus {
   color: var(--accent-color);
   width: 20px;
 }
