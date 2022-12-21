@@ -866,17 +866,7 @@ header {
   color: #FFFFFF;
 }
 
-.socialmedia {
-  /* z-index: 7; */
-}
 
-.socialmedia:hover {
-  /* color: #ffffff; */
-}
-
-.footer-color-fill {
-  z-index: 3;
-}
 
 
 .header-svg:hover {
