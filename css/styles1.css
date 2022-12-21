@@ -7,6 +7,9 @@
   --background-light-color: #f5f4fa;
   --currentColor: rgb(196, 196, 34);
   --main-q-b: cubic-bezier(0.4, 0, 0.2, 1);
+  --black-: black;
+  --checkbox-color: var(--white-color);
+
 }
 
 body {
@@ -1414,7 +1417,7 @@ header {
 .svg-forms {
   position: absolute;
   left: 12px;
-  top: 12px;
+  top: 11px;
   transition: color 250ms var(--main-q-b);
 }
 
@@ -1469,10 +1472,6 @@ header {
 }
 
 .text-checkbox {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
@@ -1528,3 +1527,5 @@ header {
 .checkbox-text {
   margin-left: 10px;
 }
+
+#icon-Vector1
