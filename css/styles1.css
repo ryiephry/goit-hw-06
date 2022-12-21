@@ -1230,8 +1230,8 @@ header {
 }
 
 .modal-body {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .modal-header {
@@ -1285,12 +1285,13 @@ header {
   font-size: 16px;
   letter-spacing: 0.03em;
   text-align: left;
-  outline: var(--accent-color);
+  outline: none;
 }
 
 .input-design:hover,
 .input-design:focus {
   border: 1px solid var(--accent-color);
+
 }
 
 .subscibe-svg {
@@ -1314,6 +1315,7 @@ header {
   line-height: 30px;
 }
 
+
 .footer-subscribe.button {
   display: flex;
   align-items: center;
@@ -1323,3 +1325,62 @@ header {
   display: flex;
   justify-content: center;
 }
+
+.Name-form {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: #757575;
+}
+
+.telephone-form {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: #757575;
+}
+
+.E-mail-form {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: #757575;
+}
+
+.comments-form {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: #757575;
+}
+
+
+.input-form-main {
+  width: 448px;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  outline: none;
+  color: #757575;
+  margin-top: 4px;
+}
+
+.input-form-main:hover,
+.input-form-main:focus {
+  border: 1px solid var(--accent-color);
+}
+
+.div-forms {
+  margin-bottom: 10px;
+}
+
+.svg-forms {}
