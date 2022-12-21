@@ -956,7 +956,7 @@ header {
   z-index: 10;
   background-color: rgba(255, 255, 255, 1);
   width: 528px;
-  height: 591px;
+  height: 650px;
 }
 
 .modal-head {
@@ -1285,7 +1285,7 @@ header {
   letter-spacing: 0.03em;
   text-align: left;
   outline: none;
-  transition: border 250ms var(--main-q-b);
+  transition: color 250ms var(--main-q-b), border 250ms var(--main-q-b);
 }
 
 .input-design:hover,
@@ -1379,13 +1379,12 @@ header {
   outline: none;
   color: #757575;
   margin-top: 4px;
-  transition: border 250ms var(--main-q-b);
+  transition: color 250ms var(--main-q-b), border 250ms var(--main-q-b);
 }
 
 .input-form-main:hover,
 .input-form-main:focus {
   border: 1px solid var(--accent-color);
-  color: var(--accent-color);
 
 }
 
@@ -1400,18 +1399,21 @@ header {
 }
 
 .svg-forms {
-  position: absolute;
+  /* position: absolute;
   left: 20px;
   top: 32px;
+  */
   color: var(--primary-text-color);
+  transition: color 250ms var(--main-q-b);
   /*
   color: currentColor;
   */
 }
 
-.svg-forms:hover {
+.svg-forms:hover,
+.svg-forms:focus {
   color: var(--accent-color);
-  color: currentColor;
+  /* color: currentColor; */
 }
 
 .comments-textarea {
@@ -1425,7 +1427,7 @@ header {
   border-radius: 4px;
   color: rgba(117, 117, 117, 0.5);
   border: 1px solid rgba(33, 33, 33, 0.2);
-  transition: border 250ms var(--main-q-b);
+  transition: color 250ms var(--main-q-b), border 250ms var(--main-q-b);
 }
 
 .comments-textarea:hover,
