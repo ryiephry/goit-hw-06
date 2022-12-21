@@ -1382,6 +1382,7 @@ header {
   transition: color 250ms var(--main-q-b), border 250ms var(--main-q-b);
   position: relative;
   display: block;
+  cursor: pointer;
 }
 
 .input-form-main:hover,
@@ -1391,9 +1392,14 @@ header {
 
 }
 
-.input-form-main.svg-forms:hover {
+.input-form-main:focus+.svg-forms {
   color: var(--accent-color);
 }
+
+.input-form-main:hover+.svg-forms {
+  color: var(--accent-color);
+}
+
 
 .div-forms {
   margin-bottom: 10px;
