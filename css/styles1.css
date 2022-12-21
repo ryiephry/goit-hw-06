@@ -1476,13 +1476,13 @@ header {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
+  display: flex;
+  margin-left: 20px;
 }
 
 .button-modal-submit {
   display: flex;
   justify-content: center;
-
-
 }
 
 .button-send {
@@ -1497,4 +1497,34 @@ header {
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
+  transition: color 250ms var(--main-q-b), box-shadow 250ms var(--main-q-b);
+}
+
+.button-send:hover,
+.button-send:focus {
+  color: var(--background-dark-color);
+  box-shadow: 1px 3px 4px 1px rgba(0, 0, 0, 0.5);
+}
+
+.checkbox-svg {
+  color: var(--white-color);
+  border: 1px solid black;
+}
+
+.terms-conditions {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  transition: color 250ms var(--main-q-b);
+}
+
+.terms-conditions:hover {
+  color: #2196F3;
+}
+
+.checkbox-text {
+  margin-left: 10px;
 }
