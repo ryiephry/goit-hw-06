@@ -1542,7 +1542,8 @@ input[type=checkbox] {
 
 .my-modal-checkbox-label {
   display: flex;
-  /* align-items: baseline; */
+  align-items: baseline;
+  align-content: baseline;
   margin-left: 20px;
   margin-bottom: 15px;
   cursor: pointer;
