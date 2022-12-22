@@ -1472,7 +1472,9 @@ header {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
+  /*
   line-height: 24px;
+  */
   letter-spacing: 0.03em;
   color: #757575;
   transition: color 250ms var(--main-q-b);
@@ -1487,6 +1489,7 @@ header {
   color: var(--secondary-text-color);
   font-weight: 400px;
   width: 400px;
+  line-height: 24px;
 }
 
 .checkbox {
@@ -1555,7 +1558,6 @@ input[type=checkbox] {
   align-items: center;
   color: var(--white-color);
   margin-top: 4px;
-  transition: background-color 250ms var(--main-q-b);
 }
 
 .my-icon {
